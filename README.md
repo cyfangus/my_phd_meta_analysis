@@ -13,10 +13,12 @@ This project is built using R and follows a modular design to ensure high data a
 - Data Standards: Implements a custom coding schema to handle multi-level effect sizes and cross-study variance.
 
 ## Repository Structure
+```text
 ├── R/                        # Modular R functions for data processing
 ├── main.R                    # Primary entry point to execute the full pipeline
 ├── meta_analysis_data.csv    # Harmonized dataset (anonymized/de-identified)
 └── README.md                 # Project documentation
+```
 
 ## Usage & Reproducibility
 To reproduce the findings, clone this repository and run the primary script:
